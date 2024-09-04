@@ -1,0 +1,13 @@
+<section>
+            <figure id="fig1">
+
+              <img src="avocado+toast+1-removebg-preview.png" onmouseover="this.src='./avocado.png'"
+                onmouseout="this.src='avocado+toast+1-removebg-preview.png'" </figure>
+
+          </section>
+
+
+
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

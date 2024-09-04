@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" type="text/css" href="formularioC.css">
+</head>
+
+<body>
+  <div class="box">
+    <form arction="">
+      <fieldset>
+        <legend><b>Entre em contato</b></legend>
+        <br>
+        <div class="inputBox">
+          <input type="text" name="nome" id="nome" class="inputUser" required>
+          <label for="nome" class="labelinput">Nome completo</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="email" id="email" class="inputUser" required>
+          <label for="email" class="labelinput">Email</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+          <label for="telefone" class="labelinput">Telefone</label>
+        </div>
+        <p>Sexo:</p>
+        <input type="radio" name="genero" value="feminino" required id="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" value="outro" required>
+        <label for="outro">Outro</label>
+        <br><br>
+        <label for="data_nascimento"><b>Data de nascimento:</b></label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required>
+        <br><br>
+        <p> Digite sua mensagem abaixo:</p>
+        <input type="text" name="Mensagem" maxlength="100" id="mensagem" />
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
